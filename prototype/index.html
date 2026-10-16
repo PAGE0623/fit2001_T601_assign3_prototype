@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGD Clinic Portal - Admin prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="topbar">
+      <a class="brand" href="#patients" aria-label="SGD Clinic home"><span class="brand-mark">S</span><span>SGD Clinic<span class="muted"> Portal</span></span></a>
+      <div class="role-badge" id="role-badge" aria-label="Current role">Administrator view</div>
+      <button class="avatar" type="button" aria-label="Open account menu">AM</button>
+    </header>
+    <div class="shell">
+      <nav class="sidebar" aria-label="Main navigation">
+        <a class="nav-item active" href="#patients" data-route="patients">Admin: Patients</a>
+        <a class="nav-item" href="#diary" data-route="diary">Patient: My diary</a>
+        <a class="nav-item" href="#doctor" data-route="doctor">Doctor: Patient review</a>
+        <a class="nav-item disabled" href="#resources" aria-disabled="true">Resources <span>Coming soon</span></a>
+        <a class="nav-item disabled" href="#reports" aria-disabled="true">Reports <span>Coming soon</span></a>
+      </nav>
+      <main id="main" class="main-content" tabindex="-1">
+        <div id="app"></div>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
