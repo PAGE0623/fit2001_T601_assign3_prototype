@@ -2,13 +2,6 @@
 
 SGD Clinic Portal is an interactive front-end prototype for gestational diabetes monitoring, produced for FIT2001 Assignment 3.
 
-## Team members
-
-- Aaron Chen — 36197874
-- Manh Phu — 35098589
-- Pei-Chieh Hsiung — 35648422
-- Teck Aik (Austin) Khoo — 34475281
-
 ## Run the prototype
 
 1. Download or clone this repository.
@@ -31,4 +24,4 @@ submission/   Report draft, screenshots and supporting materials
 
 ## Notes
 
-This is a university assessment prototype. All patient, clinician and clinical information is fictional sample data only.
+This is only a university assessment prototype. So all patient, clinician and clinical information is fictional sample data only.
